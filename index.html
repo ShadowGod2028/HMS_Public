@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header-container">
+        <header>
+            <div class="logo-header">
+                <a href="http://"><img src="Images/logo.png" alt="logo"></a>
+                <p id="HMS-header">Hostel Management System</p>
+            </div>
+
+            <div class="buttons">
+                <button type="button" id="back_to_home">Back to Home</button>
+                <button type="button" id="Register">Register</button>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <main>
+            <div class="login-container">
+                <div class="head">
+                    <img src="Images/logo.png" alt="logo" id="black-logo">
+                    <h2>Login</h2>
+                    <p>Sign in to your account</p>
+                </div>
+                <div class="input-form">
+                    <form action="" method="post">
+                        <input type="text" name="UserName" id="username" placeholder="Username" required>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <div class="remember-forgot">
+                            <div class="remember">
+                                <input type="checkbox" name="remember_me" id="remember">
+                                <label for="remember_me">Remember Me</label>
+                            </div>
+                            <div class="forgot">
+                                <a href="http://">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Login" name="Login" id="login_button">
+                            <p>Don't have an account.&nbsp;<a href="http://">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
